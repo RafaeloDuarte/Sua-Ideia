@@ -218,4 +218,9 @@ h1{
     .menuHorizontal{
       display: none;
     }
+
+    .bannerCentral{
+        display: none;
+    }
+
   }
