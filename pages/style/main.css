@@ -198,23 +198,8 @@ h1{
     justify-content: flex-end
 }
 
-.desktop {
-    display: block;
-    /* ou inline, inline-block */
-}
-  
-.mobile {
-   display: none;
-}
   
   @media(max-width: 480px) {
-    .desktop {
-      display: none;
-    }
-    .mobile {
-      display: block;
-      /* ou inline, inline-block */
-    }
     .menuHorizontal{
       display: none;
     }
