@@ -1,1 +1,1 @@
-<?php header( 'pages\index.html' ) ;  ?>
+<?php header( '\pages\index.html' ) ;  ?>
