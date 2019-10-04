@@ -32,7 +32,8 @@ body {
     height: 150px;
     grid-column: 15 / 20;
     margin-top: 13%;
-    width: 110%
+    width: 110%;
+    display: block;
 }
 
 #menuHorizontal >  ul {
@@ -213,5 +214,8 @@ h1{
     .mobile {
       display: block;
       /* ou inline, inline-block */
+    }
+    .menuHorizontal{
+      display: none;
     }
   }
