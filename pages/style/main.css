@@ -11,7 +11,7 @@ body {
     background-color:#8fdb9f;
     display: grid;
     grid-template-columns: .5fr 3fr .5fr;
-    grid-template-rows: 100px 300px 300px 300px 1200% 400px 50px 100px;
+    grid-template-rows: 100px 300px 300px 300px 40% 400px 50px 100px;
     grid-gap: 1rem;
 }
 
