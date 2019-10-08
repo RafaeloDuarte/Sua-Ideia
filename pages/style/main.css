@@ -198,6 +198,14 @@ h1{
     justify-content: flex-end
 }
 
+.containerText_1{
+    display: none;
+}
+
+.containerText_2{
+    display: none;
+}
+
   
   @media(max-width: 500px) {
     .menuHorizontal{
@@ -230,44 +238,16 @@ h1{
     }
 
     .containerPhotos_1 {
-        height: 100%;
-        width: 95%;
-        left: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: none;
     }
 
     .containerPhotos_2{
-        height: 100%;
-        width: 95%;
-        left: 0%;
-        margin-top: 0%;
-        margin-top: 0%;
-    }
-
-    .containerPhotos_2 > h1{
-        margin-top: 0%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 200%
+        display: none;
     }
 
     .containerPhotos_3{
-        height: 100%;
-        width: 95%;
-        left: 0;
-        margin-top: 50%;
-        margin-left: 0%;
-    }
+        display: none;
 
-    .containerPhotos_3 > h1{
-        margin-top: 0%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 200%
     }
 
     .container {
@@ -296,6 +276,24 @@ h1{
     .video{
         height: 100%;
         width: 100%;
+    }
+
+    .containerText_1{
+        margin-top: 40%;
+        margin-left: 4%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 85%
+    }
+    
+    .containerText_2{
+        margin-top: 60%;
+        margin-left: 4%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 85%
     }
 
 }
