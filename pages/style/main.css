@@ -212,13 +212,6 @@ h1{
         align-items: center;
         justify-content: center;
         margin-top: 30%;
-
-    }
-
-    .video{
-        height: 100%;
-        width: 100%;
-        left: 0;
     }
 
     .bannerLogo2{
@@ -226,7 +219,7 @@ h1{
     }
 
     .containerPhotos {
-        grid-column: 1 / 3;
+        grid-column: 1 / 3.4;
         right: 0;
         height: 100%;
         width: 104%;
@@ -237,7 +230,7 @@ h1{
     }
 
     .containerPhotos_1 {
-        display: none;
+        
         height: 100%;
         width: 95%;
         left: 0;
@@ -266,7 +259,7 @@ h1{
         width: 100%;
         background-color:#8fdb9f;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: .1fr 1fr .1fr;
         grid-template-rows: 100px 300px 700px 300px 40% 400px 50px 100px;
         grid-gap: 1rem;
     }
@@ -277,6 +270,17 @@ h1{
 
     .imgMeio2{
         display: none;
+    }
+
+    .videoContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video{
+        height: 100%;
+        width: 100%;
     }
 
 }
