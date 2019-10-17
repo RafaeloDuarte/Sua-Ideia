@@ -11,7 +11,7 @@ body {
     background-color:#8fdb9f;
     display: grid;
     grid-template-columns: .5fr 3fr .5fr;
-    grid-template-rows: 100px 300px 300px 300px 40% 400px 50px 100px;
+    grid-template-rows: 100px 300px 300px 200px 40% 400px 50px 100px;
     grid-gap: 1rem;
 }
 
@@ -78,7 +78,9 @@ body {
 }
 
 .bannerCentral{
-    grid-column: 1 / 4
+    grid-column: 1 / 4;
+    height: 90%;
+
 }
 
 .bannerCentral > img{
@@ -86,18 +88,23 @@ body {
     width: 100%;
 }
 
+.bannersCentrais{
+    height: 90%;
+    width: 100%;
+}
+
 .bannerCentralSetaDireita{
     grid-column: 3 / 4;
     position:absolute; 
-    margin-top: 2%;
-    left:88.2%;
+    margin-top: 4.5%;
+    right: 1%;
     grid-template-columns: repeat(20, 1fr);
 }
 
 .bannerCentralSetaEsquerda{
     grid-column: 3 / 4;
     position:absolute; 
-    margin-top: 2%;
+    margin-top: 4.5%;
     left:0%;
     grid-template-columns: repeat(20, 1fr);;
 }
@@ -206,6 +213,9 @@ h1{
     display: none;
 }
 
+.quemSomosMobile{
+    display: none;
+}
   
   @media(max-width: 500px) {
     .menuHorizontal{
@@ -297,14 +307,21 @@ h1{
     }
 
     .quemSomos{
-        font-size: 60% ; color: grey; margin-top: 5%;grid-column: 1 / 4;
+        display: none
     }
 
-    .quemSomos > h1 {
-        color: #00851c;
+    .quemSomosMobile{
         display: flex;
         align-items: center;
+        grid-column: 1 / 4;
+        font-size: 50% ; 
+        color: grey; 
+        margin-top: 5%;
         justify-content: center;
+    }
+
+    .quemSomosMobile > h1 {
+        color: #00851c;
         margin-top: 1%;
     }
 
