@@ -5,7 +5,7 @@ body{
 	font-size: 12px;
 }
 
-.menu{list-style:none; float:left; margin-top: 30%; margin-left: 13% }
+.menu{list-style:none; float:left; margin-top: 30%; margin-left: 13% ; display: none;}
 
 .menu li{position:relative; float:left;  }
 
@@ -18,3 +18,7 @@ body{
 .menu li:hover ul, .menu li.over ul{display:block;}
 
 .menu li ul li{ display:block; width:150px;}
+
+@media(max-width: 500px) {
+	.menu{display: block;}
+}

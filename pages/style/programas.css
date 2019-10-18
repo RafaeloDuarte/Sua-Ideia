@@ -11,7 +11,7 @@ body {
     background-color:lightgrey;
     display: grid;
     grid-template-columns: .5fr 3fr .5fr;
-    grid-template-rows: 100px 300px 300px 200px 40% 400px 50px 100px;
+    grid-template-rows: 100px 300px 300px 1000px 50px 100px;
     grid-gap: 1rem;
 }
 
@@ -30,7 +30,7 @@ body {
 
 .menuHorizontal{
     height: 150px;
-    grid-column: 11 / 20;
+    grid-column: 8 / 20;
     margin-top: 4%;
     width: 110%;
     display: block;
@@ -77,38 +77,6 @@ body {
     left: 0;
 }
 
-.bannerCentral{
-    grid-column: 1 / 4;
-    height: 90%;
-
-}
-
-.bannerCentral > img{
-    height: 100%;
-    width: 100%;
-}
-
-.bannersCentrais{
-    height: 90%;
-    width: 100%;
-}
-
-.bannerCentralSetaDireita{
-    grid-column: 3 / 4;
-    position:absolute; 
-    margin-top: 4.5%;
-    right: 1%;
-    grid-template-columns: repeat(20, 1fr);
-}
-
-.bannerCentralSetaEsquerda{
-    grid-column: 3 / 4;
-    position:absolute; 
-    margin-top: 4.5%;
-    left:0%;
-    grid-template-columns: repeat(20, 1fr);;
-}
-
 .bannerLogo2{
     grid-column: 1 / 4;
     top:110px;
@@ -128,16 +96,33 @@ body {
 .containerPhotos {
     grid-column: 2 / 3;
     background-color: white;
-    height: 1170px;
+    height: 900px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px; 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 550px);
-    grid-gap: 1rem;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px 
+    grid-template-columns: .5fr 3fr .5fr;
+    grid-template-rows: 170px 140px 160px 240px;
+
 }
 
-.containerPhotos > img {
-    grid-column: 2 / 4;
+.containerPhotosPrimeiroH1{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.containerPhotos > h1{
+    grid-column: 1 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.fluxo{
+    width: 100%;
+    margin-right: 5%;
+
 }
 
 .quemSomos{
@@ -162,10 +147,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 110%;
+    font-size: 120%;
     color: grey;
     font-family: Calibri;
-    margin-top: .6%
+    margin-top: 1%
 }
 
 .imgCentral {
@@ -189,21 +174,7 @@ h1{
     color: #00851c
 }
 
-.containerPhotos_2{
-    margin-left: 7%;
-    margin-top: 20%;
-}
 
-.containerPhotos_3{
-    margin-top: 15%;
-}
-
-.containerPhotos_3 > h1{
-    margin-top: 5%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end
-}
 
 .containerText_1{
     display: none;
